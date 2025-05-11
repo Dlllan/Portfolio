@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="em">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<meta name="description" content="Final Project. Portfolio">
+	<title>Dylan White - Websites</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap Stylesheet -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+	<header>
+		<img src="images/logo.png" width="200px" height="75px" alt="logo" class="center-image">
+	</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="game.html">Game</a></li>
+				<li><a href="contact.html">Contact</a></li>								
+			</ul>
+		</nav>
+	<!-- This is the div for the her image -->
+	<div class="home-hero">
+		<h1>Web Pages</h1>
+	</div>
+
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<blockquote>Below you'll find a collection of web pages I've designed and developed for my portfolio. Each image offers a glimpse into the visual style and functionality of these projects.
+					</blockquote>
+				</div>
+			</div>
+		</div>
+
+		<div class="gallery">
+    		<div class="preview">
+        		<img id="preview" src="images/animal.png" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
+    		</div>
+
+	    	<div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+	        	<img onclick="document.getElementById('preview').src = document.getElementById('img1').src;" id="img1" src="images/puppies.png" alt="" />
+	        	<img onclick="document.getElementById('preview').src = document.getElementById('img2').src;" id="img2" src="images/find-groove.png" alt=""  />
+	        	<img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/goofy.png" alt="" />
+	        	<img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/groove-guitar.png" alt="" />
+	        	<img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/joystick.png" alt=""  />
+	        	<img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="images/animal.png" alt="" />
+	    	</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-3">
+				</div>
+				<div class="col-sm-3">
+			        <h2>Web Portfolio</h2>
+			        <blockquote>This portfolio showcases my passion and skills in creating visually appealing and functional web pages using the foundational technologies of HTML and CSS. Explore my work and feel free to reach out if you have a project in mind!</blockquote>
+			        <blockquote>I'm always open to new opportunities and collaborations. Feel free to reach out and let's chat about your next project!</blockquote>
+	            </div>
+	            <div class="col-sm-3">
+	            	<h2>Let's Connect!</h2>
+		            	<a href="https://www.facebook.com/dylan.white.982" target="_blank"><i class="fa fa-facebook fa-3x" aria-hidden="true">	facebook</i></a><br>
+				        <a href="https://www.github.com/Dlllan" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true" aria-hidden="true"> github</i></a><br>
+				        <a href="https://www.instagram.com/scottnchzzz/" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true">	instagram</i></a><br>
+	            </div>
+	            <div class="col-sm-3">
+	            </div>
+	        </div><hr>
+
+	        <div class="row">
+				<div class="col-sm-12">
+					<small> I designed this web page for my Web Fundamentals course as Saint Paul College. This page includes use of Bootstrap columns and Font Awesome icons. The animal photos for this lab are from Pixabay.com <br> &copy; 2025 Dylan White, Website Template. All rights reserved.</small>
+				</div>
+			</div>
+		</div>
+	</footer>	
+</body>
+</html>
+

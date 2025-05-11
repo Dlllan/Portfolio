@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&display=swap');
+
+body {
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  border-top: 10px solid darkorange;
+  border-bottom: 10px solid darkorange;
+}
+
+
+
+header {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  line-height: 200%;
+  margin: 0;
+  color: white;
+}
+
+canvas {
+  border: 2px solid darkorange;
+  background-image: url(images/hero-image1.png);
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0px 0px 10px 5px darkorange;
+  border-radius: 15px;
+}
+
+nav {
+  font-weight: bold;
+  text-align: center;
+  line-height: 25%;
+  background: rgb(97,65,47);
+  color: #ffffff;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+}
+/* I added 20px instead of 10px */
+nav li{
+  display: inline;
+  padding: 20px;
+}
+nav a{
+  text-decoration: none;
+}
+nav a:link{
+  color: white;
+}
+nav a:visited{
+  color: blue;
+}
+nav a:hover{
+  color: darkorange;
+}
+nav a:active{
+  color: darkred;
+}
+
+/* This is the CSS for the hero image */
+.home-hero {
+  background-image: url(images/hero-image.jpg);
+  background-size: cover;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.home-hero h1 {
+  color: darkorange;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+  padding-top: 50px 0;
+  font-size: 3em;
+  font-weight: normal;
+  margin: 0;
+}
+
+
+main h2{
+  font-size: 2em;
+  margin-block: 15px;
+  font-weight: bold;
+  border-bottom: 2px solid;
+  padding-bottom: 5px;
+}
+
+main p{
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* CSS image float-right */
+.float-right {
+  float: right;
+  max-width: 40%;
+  height: auto;
+  box-shadow: 0px 0px 10px 5px darkorange;
+  border-radius: 10px;
+  border: 2px solid darkorange;
+  margin: 30px 30px 30px;
+}
+
+main{
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.resume{
+    border: solid 2px #eeeeee;;
+    padding: 25px;
+}
+
+
+/* Footer */
+footer {
+  background-image: url(images/hero-image.jpg);
+  text-align: center;
+  color: darkorange;  
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+}
+
+/* JavaScript Game changes for mobile */
+.mobile{
+  display:none;
+  max-width: 100%;
+}
+@media only screen and (max-width: 768px){
+  .desktop{
+  display:none;
+  }
+  .mobile{
+    display: block;
+    touch-action: manipulation;
+  }
+}
+
+
+.myButton {
+  background-color: darkorange;
+  height: 30px;
+  display: grid;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 0 auto;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.gallery .preview{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+    border: solid 1px black;
+    padding: 2px;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+    border: solid 1px black;
+}
+
+small{
+  color: darkorange;
+}
+
+.center-image-{
+  border: solid  20px;
+  border-top: solid 40px;
+  border-bottom: solid 40px;
+  border-radius: 10px;
+}
+
